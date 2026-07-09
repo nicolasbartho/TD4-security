@@ -13,7 +13,7 @@ app = FastAPI()
 # SECURE VERSION (For your final screenshot)
 # ==========================================
 # Use environment variables instead of hardcoding secrets in the source code
-# SECRET_API_KEY = os.getenv("API_KEY", "default_safe_key_for_dev")
+SECRET_API_KEY = os.getenv("API_KEY", "default_safe_key_for_dev")
 
 # Mock database
 PRODUCTS = {
