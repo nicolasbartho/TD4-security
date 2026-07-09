@@ -7,7 +7,7 @@ app = FastAPI()
 # VULNERABLE VERSION (For your first screenshot)
 # ==========================================
 # Uncomment the line below to trigger a Secret Scanning alert (Hardcoded Secret)
-SECRET_API_KEY = "sk_live_1234567890abcdef1234567890abcdef"
+# SECRET_API_KEY = "sk_live_1234567890abcdef1234567890abcdef"
 
 # ==========================================
 # SECURE VERSION (For your final screenshot)
